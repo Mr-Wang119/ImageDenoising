@@ -92,12 +92,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\wangz\Downloads\png\lpng1632;C:\Users\wangz\Downloads\png\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>C:\Users\wangz\Downloads\png\lpng1632\projects\vstudio\Debug</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libpng16.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -185,7 +187,6 @@
     <ClInclude Include="NLM.h" />
     <ClInclude Include="NLMDlg.h" />
     <ClInclude Include="RDlg.h" />
-    <ClInclude Include="readBMP.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -194,7 +195,6 @@
     <ClCompile Include="NLM.cpp" />
     <ClCompile Include="NLMDlg.cpp" />
     <ClCompile Include="RDlg.cpp" />
-    <ClCompile Include="readBMP.c" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

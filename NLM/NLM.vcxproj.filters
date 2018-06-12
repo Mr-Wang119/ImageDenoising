@@ -33,9 +33,6 @@
     <ClInclude Include="RDlg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="readBMP.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NLM.cpp">
@@ -48,9 +45,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RDlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="readBMP.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
